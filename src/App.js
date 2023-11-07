@@ -4,23 +4,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+         <section class="canvas">
+            
+            <div class="start"></div>
+            <div class="meio"></div>
+            <div class="pont_grande"></div>			
+            <div class="pont_pequeno"></div>
+
+            <div class="N1"><h1>12</h1></div>
+            <div class="N2"><h1>9</h1></div>
+            <div class="N3"><h1>6</h1></div>
+            <div class="N4"><h1>3</h1></div>
+
+
+          </section>
+
+         <link href="index.css" rel="stylesheet"></link>
       </header>
     </div>
   );
